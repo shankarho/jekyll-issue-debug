@@ -4,9 +4,8 @@ jekyll-data plugin is current disabled and the site builds fine
 
 To reproduce the issue
 
-uncomment 
-* jekyll-data in en-us-site/_config / plugins
-* jekyll-data in en-us-site/Gemfile
+* uncomment jekyll-data in en-us-site/_config / plugins
+* uncomment jekyll-data in en-us-site/Gemfile
 * run command en-us-site/bundle update
 * run command en-us-site/bundle exec jekyll build
 
