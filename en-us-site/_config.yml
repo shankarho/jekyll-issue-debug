@@ -1,0 +1,18 @@
+
+title: "Reproduce issuse"
+
+# Build settings
+markdown: kramdown
+  
+theme: jekyll-theme
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-titles-from-headings
+  #- jekyll-data
